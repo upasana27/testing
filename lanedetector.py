@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from PIL import Image
 import math
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 while(True):
     ret, frame = cap.read()
     img=cv2.imread('C:\\Users\\SR\\Desktop\\cordova1\\f00206.png')
